@@ -3,7 +3,7 @@
 * Android-NDK
 * android-NDK环境搭建
 * 配置
-*     [NDK目录配置]
+*     [NDK目录配置](#NDK目录配置)
      gradle校验
      生成jni头文件
 				
