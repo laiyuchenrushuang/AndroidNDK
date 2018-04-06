@@ -2,31 +2,31 @@
 * Android-NDK
 * android-NDK环境搭建
 # 配置
-*      NDK目录配置
-*      gradle校验
-*      生成jni头文件
+* NDK目录配置
+* gradle校验
+* 生成jni头文件
 				
 # 编写流程
-*      编写native方法
-*      生成头文件
-*      加载so
+* 编写native方法
+* 生成头文件
+* 加载so
 				
 # 运行测试
-*      遇到的错误
-*      gradle运行出错
-*      加载so遇到的错误，cpu匹配，java层static loadLibrary
+* 遇到的错误
+* gradle运行出错
+* 加载so遇到的错误，cpu匹配，java层static loadLibrary
 
 # 目录结构
-*      so文件目录
-*      android.mk文件目录
+* so文件目录
+* android.mk文件目录
 
 # 什么是ABI
-*    Android 系统支持的cpu架构有哪些
-        ARMv5
+* Android 系统支持的cpu架构有哪些
+        (ARMv5
         ARMv7
         x86
         MIPS
-        ARMv8,MIPS64和x86_64,ARM64_v8a
+        ARMv8,MIPS64和x86_64,ARM64_v8a)
 # 拓展知识
 
 # jni交互的第二部分
@@ -66,27 +66,27 @@
 # ndk调试
 * 	ndk崩溃的显现
 * 	崩溃日志的查看
- 	错误信号
- 	寄存器信息
- 	方法调用栈
+* 	错误信号
+* 	寄存器信息
+* 	方法调用栈
 # 常见的ndk异常有哪些
- 	野指针
- 	空指针
- 	数组越界
- 	内存溢出
- 	堆栈溢出
+* 	野指针
+* 	空指针
+* 	数组越界
+* 	内存溢出
+* 	堆栈溢出
 # 什么是符号表
 * 解决方案
- 	addr2line工具
-	ndk-stack命令
- 	-sym
- 	-dump
+* 	addr2line工具
+*	ndk-stack命令
+* 	-sym
+* 	-dump
 # NDK异常
 * 	异常产生的原因
- 	编译的时候
- 	运行的时候
+* 	编译的时候
+* 	运行的时候
 * 	jni层调用java层异常，跟java异常有什么不一样的地方呢
 * 	处理方式
-	ExceptionCheck
-	ExcptionOccurred
+*	ExceptionCheck
+*	ExcptionOccurred
 * 出现异常后我们的操作是什么呢？
