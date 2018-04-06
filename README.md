@@ -1,4 +1,4 @@
-* AndroidNDK
+! AndroidNDK
 
 * Android-NDK
 * android-NDK环境搭建
